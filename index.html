@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte e Galeria</title>
+    <!---   links   -->
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <link rel="stylesheet" href="./components/cards.css">  
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+</head> 
+<body>
+    <section class="modal-view">
+        <div> <button onclick="OpenModal()">x</button> </div>
+        <img class="modal-image"></img>
+    </section>
+
+    <header class="app-header">
+        <nav>
+            <h1>art</h1>
+            <input type="search" placeholder="Search..">
+        </nav>
+        <nav>
+            <a href="/index.html" style="color: #ff0048;font-weight: bolder;">Home</a>
+        </nav>
+    </header> <br><br><br><br><br>
+    
+    <main class="app-main-top">
+        <main>
+            <h1>Explore</h1>
+            <div>
+                <a href="./index.html" style="color:#ff0055;font-weight: bolder;">Home</a>
+                <a href="../pages/arts.html">Arts</a>
+                <a href="../pages/ia-generate.html" >AI Generated</a>
+                <a href="../pages/lifestyle.html">Lifestyle</a>
+                <a href="../pages/design.html">Design</a>
+            </div>
+        </main>
+    </main>
+
+    <section class="main-content">
+        <section class="app-target2">
+            <h1>Arts</h1>
+            <a href="../pages/arts.html">See more</a>
+        </section>
+        <section class="content" id="arts"></section>
+    
+        <section class="app-target2">
+            <h1>AI Generated</h1>
+            <a href="../pages/ia-generate.html">See more</a>
+        </section>
+        <section class="content" id="iagenerate"></section>
+    
+        <section class="app-target2">
+            <h1>Lifestyle</h1>
+            <a href="../pages/lifestyle.html" >See more</a>
+        </section>
+        <section class="content" id="lifestyle"></section>
+    
+        <section class="app-target2">
+            <h1>Design</h1>
+            <a href="../pages/design.html">See more</a>
+        </section>
+        <section class="content" id="Design"></section>
+    </section>
+    
+    
+    <script src="./asset/datas/lifestyle.js"></script>
+    <script src="./asset/datas/ia_generated.js"></script>
+    <script src="./asset/datas/arts.js"></script>
+    <script src="./asset/datas/design.js"></script>
+    <script src="./components/cards.js"></script>
+    <script src="./asset/js/home.data.js"></script>
+</body>
+</html>

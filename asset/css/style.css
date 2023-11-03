@@ -1,0 +1,122 @@
+.app-header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 5px #00000019;
+    background-color: white;
+    z-index: 2;
+}
+.app-header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.app-header nav h1{
+    width: 40px;
+    font-size: 15pt;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 85);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-header nav input{
+    margin-left: 20px;
+    width: 190px;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 5px;
+}
+.app-header nav a{
+    color: gray;
+    margin: 10px;
+}
+.app-main-top{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    justify-content: center;
+    background-color: white;
+}
+.app-main-top main{
+    width: 85%;
+}
+.app-main-top main h1{
+    margin-bottom: 22px;
+}
+.app-main-top div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main-top a{
+    margin-right: 10px;
+    color: gray;
+}
+.iframe{
+    width: 100%;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 180px;
+    position: fixed;
+}
+.main-content{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app-target2{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.app-target2 a{ color: gray;}
+.modal-view{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.529);
+    position: fixed;
+    z-index: 4;
+}
+.modal-view.active{
+    display: flex;
+}
+.modal-view div{
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modal-view div button{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.modal-view img{
+    max-width: 80%;
+    max-height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+}

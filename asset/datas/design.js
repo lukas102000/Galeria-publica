@@ -1,0 +1,16 @@
+const Designs = [
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (1).avif', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (1).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (1).pgn', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (1).webp', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (2).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (2).webp', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (3).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (3).webp', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (4).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (5).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (6).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (7).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (8).jpg', titler: 'Art & Galerie'},
+    {img: '../../asset/images/designs/arts_-&-_galerie_desigin_ (9).jpg', titler: 'Art & Galerie'},
+].reverse()
