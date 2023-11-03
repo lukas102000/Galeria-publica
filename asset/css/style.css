@@ -120,3 +120,12 @@
     background-color: white;
     border-radius: 5px;
 }
+.ads-banner{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
